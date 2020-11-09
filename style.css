@@ -1,0 +1,140 @@
+body {
+	background-color: #41aea9;
+	color: #7d0633;
+	font-size: 16px;
+} 
+
+h1 {
+	color: #52057b;
+	font-size: 50px;
+	font-weight: 100;
+}
+
+h2 {
+	color: #52057b;
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none; 
+}
+
+a:hover {
+	color: purple;
+	text-decoration: underline;
+}
+
+.container {
+	width: 595px;
+	margin: 30px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-design {
+	background-color: #a6f6f1;
+	padding: 40px;
+	box-shadow: 5px 15px 25px rgba(0,0,0.8);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.title, .T1 {
+ 	text-align: center;
+ 	font-family: Courier;
+}
+
+.intro, .subintro {
+	text-align: center;
+	font-family: Courier;
+}
+
+.DP {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 50%;
+}
+
+.H2, {
+	text-align: center;
+}
+
+.h2 {
+	text-align: center;
+}
+
+.C1 {
+	text-align: center;
+	color: red;
+	font-family: Courier;
+}
+
+.F1, .F2, .F3 {
+	text-align: center;
+	color: #ea6227;
+	font-family: Courier;
+}
+
+.T2 {
+	text-align: center;
+	color: #52057b;
+	font-family: Courier;
+}
+
+.center1, .center2, .center3 {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.caption1, .caption2, .caption3 {
+	text-align: center;
+	padding: 10px;
+	font-family: Courier;
+}
+
+.T3 {
+	text-align: center;
+}
+
+.ES1 {
+	text-align: center;
+	color: green;
+	font-family: Courier;
+}
+
+.T4 {
+	text-align: center;
+	width: 100%;
+}
+
+.FB,.LinkedIn,.Insta {
+	text-align: center;
+	font-family: Courier;
+	padding-left: 0px;
+	display: inline;
+}
+
+.captionFB, .captionIG, .captionLI {
+	padding-left: 0px;
+	padding: 5px;
+}
+
+.logoFB, .logoIG, .logoLI {
+	padding-left: 0px;
+	padding: 5px;
+}
+
